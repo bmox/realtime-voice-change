@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: #000;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 4vw;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5vw;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vw;
+  }
+  
+  label {
+    font-size: 3vw;
+    color: #fff;
+    margin-bottom: 1vw;
+  }
+
+
+  
+  input {
+    width: 50vw;
+    height: 5vw;
+    font-size: 3vw;
+    padding: 1vw;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 12px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vw;
+    width: 100%;
+  }
+  
+  .output {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #text-container {
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 2vw;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+  }
+  
+  button {
+    font-size: 3vw;
+    padding: 1vw 2vw;
+    margin-right: 2vw;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    transition: background-color 0.2s;
+    border-radius: 12px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #777;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      padding: 5vw;
+    }
+  
+    .title {
+      font-size: 3vw;
+      margin-bottom: 3vw;
+    }
+  
+    .form {
+      margin-bottom: 1vw;
+    }
+  
+    label {
+      font-size: 2vw;
+      margin-bottom: 0.5vw;
+    }
+  }
+  

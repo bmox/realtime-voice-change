@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Human Voice To AI Voice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="title">Human Voice To AI Voice</h1>
+      <div class="form">
+        <label for="model-url">Enter the URL of the tts api</label>
+        <input type="text" id="model-url" placeholder="https://e690c433-c154-40bf.gradio.live/" />
+      </div>
+      <div class="controls">
+        <div class="output">
+          <div id="text-container"></div>
+        </div>
+        <div class="buttons">
+          <button id="speak-btn">Speak</button>
+          <button id="stop-btn">Stop</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
