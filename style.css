@@ -117,3 +117,44 @@
     }
   }
   
+  
+
+
+  label[for="language-selector"] {
+    font-size: 18px;
+    /* #add blank space on top */
+    margin-top: 10px;
+  }
+
+  
+
+  /* Style the select element */
+#language-selector {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path d="M10.3,3.3L6,7.6L1.7,3.3C1.3,2.9,0.7,2.9,0.3,3.3C-0.1,3.7,-0.1,4.3,0.3,4.7l4.7,4.7c0.4,0.4,1,0.4,1.4,0l4.7,-4.7C10.7,4.3,10.7,3.7,10.3,3.3Z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  width: 120px; /* Set the width to 250 pixels */
+}
+
+/* Style the options */
+#language-selector option {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Style the hover state of the options */
+#language-selector option:hover {
+  background-color: #ccc;
+  color: #fff;
+}
